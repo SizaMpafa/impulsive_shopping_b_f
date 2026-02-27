@@ -1,6 +1,6 @@
 import express from "express"
 
-import { deletePaymentMethodCon, getPaymentMethodsCon, insertPaymentMethodCon, updatePaymentMethodCon } from "../controllers/paymentMethodscontroller.js";
+import { deletePaymentMethodCon, getPaymentMethodsCon, insertPaymentMethodCon, updatePaymentMethodCon } from "../controllers/paymentMethodsController.js";
 
 const router = express.Router()
 
